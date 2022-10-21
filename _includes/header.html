@@ -1,0 +1,35 @@
+<header>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+      <a href="{% link index.md %}"><img src="{% link {{site.logo}} %}" height="32" /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+          {% assign menu_pages = site.pages | where: "menu", true %}
+          {% assign sorted_menu_pages = menu_pages | sort: "order" %}
+          {%- for site_page in sorted_menu_pages %}
+          <li class="nav-item">
+            <a
+              class="nav-link{% if site_page.path == page.path %} active {% endif %}"
+              {% if site_page.path == page.path %}aria-current="page"{% endif %}
+              href="{% link {{ site_page.path }} %}"
+              >{{ site_page.title }}</a
+            >
+          </li>
+          {%- endfor %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Formations
 menu: true
 order: 2
@@ -19,4 +19,3 @@ Nous traitons dans nos formations de :
 <dt>Prospective IA</dt>
 <dd>Quels sont les enjeux de l'IA aujourd'hui ? Découvrez les impacts futurs du machine learing dans votre domaine.</dd>
 <description>
-

@@ -5,4 +5,7 @@ menu: true
 order: 0
 ---
 
-<div class="intro">Nous sommes une équipe d'experts en machine learning, deep learning & python, disponibles pour assurer des missions de consulting ou des formations, standards ou sur mesure.</div>
+<div class="intro">Nous sommes une équipe d'experts en machine learning, deep learning & python accompagnant les entreprises et organisation dans leurs projets innovants en IA et data science. Nous proposons conseils et formations pour répondre au mieux à vos besoins.</div>
+<div class="consulting"></div>
+<div class="formations"></div>
+<div class="team">Une équipe de spécialites à votre service</div>

@@ -17,3 +17,8 @@ Nous traitons dans nos formations de :
 <dt>Python</dt>
 <dd>Découverte, perfectionnement, data science</dd>
 <description>
+
+
+## Prospective IA
+
+Quels sont les enjeux de l'IA aujourd'hui ? Découvrez les impacts futurs du machine learing dans votre domaine.

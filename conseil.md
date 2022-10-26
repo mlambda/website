@@ -5,7 +5,8 @@ menu: true
 order: 1
 ---
 
-## Nos offres
+## Conseil
+Une expertise en machine learning, deep learning, IA et science des données sur vos projets, à tout moment de leur avancement :
 
 ### Définition de projet
 

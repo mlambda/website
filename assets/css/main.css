@@ -1,6 +1,88 @@
 main {
-  padding: 2rem;
+  background-color: #d8e6e9;
+  width: 100%;
 }
-main h1 {
-  margin-bottom: 3rem;
+
+footer {
+  background-color: #17282b;
+  color: #eee;
+
+}
+
+h1,
+h2 {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.mlambda,
+.conseil,
+.formation,
+.equipe {
+  position: relative;
+  padding-bottom: 7vw;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.conseil,
+.formation,
+.equipe {
+  padding-top: 7vw;
+  margin-top: -5vw;
+}
+
+.conseil,
+.formation {
+  clip-path: polygon(0 0,
+      100% 5vw,
+      100% 100%,
+      0 calc(100% - 5vw));
+
+}
+
+.mlambda {
+  padding-top: 3vw;
+  clip-path: polygon(0 0,
+      100% 0,
+      100% 100%,
+      0 calc(100% - 5vw));
+}
+
+.mlambda .btn-primary {
+  border: solid 1px #639eab;
+  background-color: #386069;
+}
+
+.equipe {
+  clip-path: polygon(0 0,
+      100% 5vw,
+      100% 100%,
+      0 100%);
+}
+
+.mlambda {
+  background-image: linear-gradient(135deg, #d8e6e9, #d8e6e9c9);
+}
+
+.conseil {
+  background-image: linear-gradient(135deg, #fff, #eee);
+}
+
+.formation {
+  background-image: linear-gradient(135deg, #fff9e1, #feefa6);
+}
+
+.equipe {
+  background-image: linear-gradient(135deg, #eee, #efefef);
 }
